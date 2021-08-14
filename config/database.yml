@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: postgres
+  password: Shubham@123
+  pool:  5
+  database: blog
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: postgres
+  password: Shubham@123
+  pool:  5
+  database: blog
+
+Production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: postgres
+  password: Shubham@123
+  pool:  5
+  database: blog
